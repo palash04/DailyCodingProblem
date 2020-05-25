@@ -19,6 +19,7 @@ using namespace std;
 class Solution {
     unordered_map<string,int> dp;
 public:
+    // O(n),O(n)
     int solve(string s,int index){
         string key = to_string(index);
         if (index == s.size()){
